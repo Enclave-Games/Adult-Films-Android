@@ -1,16 +1,16 @@
-package org.enclave.adultfilms.ui.popular_videos;
+package org.enclave.adultfilms.ui.fragment.love_case;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class PopularVideosModel extends ViewModel {
+public class LoveCaseViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public PopularVideosModel() {
+    public LoveCaseViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is dashboard fragment");
+        mText.setValue("This is notifications fragment");
     }
 
     public LiveData<String> getText() {

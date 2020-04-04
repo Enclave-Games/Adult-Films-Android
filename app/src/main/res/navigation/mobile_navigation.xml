@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="org.enclave.adultfilms.ui.home.HomeFragment"
+        android:name="org.enclave.adultfilms.ui.fragment.home.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="org.enclave.adultfilms.ui.popular_videos.PopularVideosFragment"
+        android:name="org.enclave.adultfilms.ui.fragment.popular_videos.PopularVideosFragment"
         android:label="@string/title_popular_videos"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="org.enclave.adultfilms.ui.love_case.LoveCaseFragment"
+        android:name="org.enclave.adultfilms.ui.fragment.love_case.LoveCaseFragment"
         android:label="@string/title_love_case"
         tools:layout="@layout/fragment_notifications" />
 </navigation>

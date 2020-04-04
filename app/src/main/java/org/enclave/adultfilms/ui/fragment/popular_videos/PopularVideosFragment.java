@@ -1,4 +1,4 @@
-package org.enclave.adultfilms.ui.popular_videos;
+package org.enclave.adultfilms.ui.fragment.popular_videos;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

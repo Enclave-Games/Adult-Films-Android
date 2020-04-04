@@ -1,4 +1,4 @@
-package org.enclave.adultfilms;
+package org.enclave.adultfilms.ui.activity;
 
 import android.os.Bundle;
 
@@ -9,6 +9,8 @@ import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
+
+import org.enclave.adultfilms.R;
 
 public class MainActivity extends AppCompatActivity {
 

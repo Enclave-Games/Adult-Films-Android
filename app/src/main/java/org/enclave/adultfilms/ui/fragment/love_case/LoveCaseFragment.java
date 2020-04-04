@@ -1,4 +1,4 @@
-package org.enclave.adultfilms.ui.home;
+package org.enclave.adultfilms.ui.fragment.love_case;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,17 +14,17 @@ import androidx.lifecycle.ViewModelProviders;
 
 import org.enclave.adultfilms.R;
 
-public class HomeFragment extends Fragment {
+public class LoveCaseFragment extends Fragment {
 
-    private HomeViewModel homeViewModel;
+    private LoveCaseViewModel notificationsViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        homeViewModel =
-                ViewModelProviders.of(this).get(HomeViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_home, container, false);
-        final TextView textView = root.findViewById(R.id.text_home);
-        homeViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+        notificationsViewModel =
+                ViewModelProviders.of(this).get(LoveCaseViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_notifications, container, false);
+        final TextView textView = root.findViewById(R.id.text_notifications);
+        notificationsViewModel.getText().observe(this, new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);

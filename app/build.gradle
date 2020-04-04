@@ -68,6 +68,8 @@ dependencies {
     //Moxy
     implementation "com.github.moxy-community:moxy:$moxyVersion"
     implementation "com.github.moxy-community:moxy-android:$moxyVersion"
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.google.android.material:material:1.1.0'
     annotationProcessor "com.github.moxy-community:moxy-compiler:$moxyVersion"
     implementation "com.github.moxy-community:moxy-app-compat:$moxyVersion"
     implementation "com.github.moxy-community:moxy-material:$moxyVersion"
