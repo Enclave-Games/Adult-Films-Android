@@ -14,14 +14,14 @@ import androidx.lifecycle.ViewModelProviders;
 
 import org.enclave.adultfilms.R;
 
-public class DashboardFragment extends Fragment {
+public class PopularVideosFragment extends Fragment {
 
-    private DashboardViewModel dashboardViewModel;
+    private PopularVideosModel dashboardViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         dashboardViewModel =
-                ViewModelProviders.of(this).get(DashboardViewModel.class);
+                ViewModelProviders.of(this).get(PopularVideosModel.class);
         View root = inflater.inflate(R.layout.fragment_dashboard, container, false);
         final TextView textView = root.findViewById(R.id.text_dashboard);
         dashboardViewModel.getText().observe(this, new Observer<String>() {
