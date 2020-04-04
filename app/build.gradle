@@ -34,7 +34,7 @@ ext {
     retrofitVersion = '2.5.0'
     daggerVersion = '2.16'
     roomVersion = '1.1.1'
-    glideVersion = '4.9.0'
+    glideVersion = '4.10.0'
     exoPlayerVersion = '2.6.0'
     googleX = '1.1.0'
     okhttpVersion = '4.2.1'
@@ -99,7 +99,7 @@ dependencies {
     annotationProcessor "com.github.bumptech.glide:compiler:$glideVersion"
 
 
-    //ExoPlayer
+    //ExoPlayer(video player)
     implementation "com.google.android.exoplayer:exoplayer-core:$exoPlayerVersion"
     implementation "com.google.android.exoplayer:exoplayer-dash:$exoPlayerVersion"
     implementation "com.google.android.exoplayer:exoplayer-ui:$exoPlayerVersion"
