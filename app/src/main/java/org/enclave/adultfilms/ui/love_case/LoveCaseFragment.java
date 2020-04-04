@@ -1,4 +1,4 @@
-package org.enclave.adultfilms.ui.notifications;
+package org.enclave.adultfilms.ui.love_case;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
