@@ -1,6 +1,12 @@
 package org.enclave.adultfilms.base;
 
-public interface BaseView
+import moxy.MvpView;
+import moxy.viewstate.strategy.AddToEndStrategy;
+import moxy.viewstate.strategy.StateStrategyType;
+
+
+@StateStrategyType(AddToEndStrategy.class)
+public interface BaseView extends MvpView
 {
     void showLoading();
 
