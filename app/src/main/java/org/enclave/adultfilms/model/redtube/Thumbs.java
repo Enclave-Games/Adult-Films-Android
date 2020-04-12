@@ -1,24 +1,11 @@
-package org.enclave.adultfilms.model;
+package org.enclave.adultfilms.model.redtube;
 
-import com.google.gson.annotations.SerializedName;
-
-public class Thumb
+public class Thumbs
 {
-    @SerializedName("size")
     private String size;
-
-
-    @SerializedName("width")
     private int width;
-
-
-    @SerializedName("height")
     private int height;
-
-
-    @SerializedName("src")
     private String src;
-
 
     public String getSize() {
         return size;

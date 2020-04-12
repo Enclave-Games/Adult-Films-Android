@@ -1,4 +1,4 @@
-package org.enclave.adultfilms.model;
+package org.enclave.adultfilms.model.redtube;
 
 import com.google.gson.annotations.SerializedName;
 

@@ -1,4 +1,4 @@
-package org.enclave.adultfilms.ui.activity;
+package org.enclave.adultfilms.ui.activity.main;
 
 import androidx.appcompat.app.AppCompatActivity;
 

@@ -1,54 +1,22 @@
-package org.enclave.adultfilms.model;
-
-import com.google.gson.annotations.SerializedName;
+package org.enclave.adultfilms.model.redtube;
 
 import java.util.List;
 
 public class Video
 {
-    @SerializedName("duration")
     private String duration;
-
-
-    @SerializedName("views")
     private String views;
-
-
-    @SerializedName("video_id")
     private String video_id;
-
-
-    @SerializedName("rating")
     private String rating;
-
-
-    @SerializedName("ratings")
     private String ratings;
-
-
-    @SerializedName("title")
     private String title;
-
-
-    @SerializedName("url")
     private String url;
-
-
-    @SerializedName("default_thumb")
+    private String embed_url;
     private String default_thumb;
-
-
-    @SerializedName("thumb")
     private String thumb;
-
-
-    @SerializedName("publish_date")
-    private String publish_date;
-
-
-    @SerializedName("thumbs")
-    private List<Thumb> thumbs;
-
+    private boolean publish_date;
+    private List<Thumbs> thumbs;
+    private List<Tags> tags;
 
     public String getDuration() {
         return duration;
@@ -106,6 +74,14 @@ public class Video
         this.url = url;
     }
 
+    public String getEmbed_url() {
+        return embed_url;
+    }
+
+    public void setEmbed_url(String embed_url) {
+        this.embed_url = embed_url;
+    }
+
     public String getDefault_thumb() {
         return default_thumb;
     }
@@ -122,21 +98,27 @@ public class Video
         this.thumb = thumb;
     }
 
-    public String getPublish_date() {
+    public boolean isPublish_date() {
         return publish_date;
     }
 
-    public void setPublish_date(String publish_date) {
+    public void setPublish_date(boolean publish_date) {
         this.publish_date = publish_date;
     }
 
-    public List<Thumb> getThumbs() {
+    public List<Thumbs> getThumbs() {
         return thumbs;
     }
 
-    public void setThumbs(List<Thumb> thumbs) {
+    public void setThumbs(List<Thumbs> thumbs) {
         this.thumbs = thumbs;
     }
 
-    //public Tags tags;
+    public List<Tags> getTags() {
+        return tags;
+    }
+
+    public void setTags(List<Tags> tags) {
+        this.tags = tags;
+    }
 }
