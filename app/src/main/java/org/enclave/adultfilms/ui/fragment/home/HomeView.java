@@ -1,7 +1,7 @@
 package org.enclave.adultfilms.ui.fragment.home;
 
 import org.enclave.adultfilms.base.BaseView;
-import org.enclave.adultfilms.model.Video;
+import org.enclave.adultfilms.model.redtube.Video;
 
 import java.util.List;
 
