@@ -4,5 +4,15 @@
     <string name="title_popular_videos">Popular</string>
     <string name="title_love_case">Love Case</string>
     <string name="title_activity_splash">SplashActivity</string>
+    <string name="download_txt">Download video</string>
+    <string name="download_video_service">Download Video Service</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
 
 </resources>
